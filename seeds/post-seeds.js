@@ -3,105 +3,74 @@ const { Post } = require('../models');
 const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',
-    post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 10
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'https://nasa.gov/donec.json',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 8
   },
   {
     title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    post_url: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 1
   },
   {
     title: 'Nunc purus.',
-    post_url: 'http://desdev.cn/enim/blandit/mi.jpg',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 4
   },
   {
     title: 'Pellentesque eget nunc.',
-    post_url: 'http://google.ca/nam/nulla/integer.aspx',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 7
   },
   {
     title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    post_url: 'https://stanford.edu/consequat.png',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus orci, euismod a fringilla non, elementum et urna. Aliquam erat volutpat. Proin lobortis fringilla diam, a tristique nulla lobortis et. Morbi a sapien id velit consequat pretium non sit amet tortor. Vestibulum vitae augue vitae augue accumsan rhoncus. Proin interdum nisi lobortis, cursus felis at, rutrum massa. Sed mauris eros, condimentum ut nisi sed, varius efficitur quam.',
     user_id: 4
   },
   {
     title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://edublogs.org/non/ligula/pellentesque.js',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu velit id sapien mattis condimentum laoreet non neque. Ut sed massa eu mi vehicula sodales. Praesent tempor maximus dictum. Fusce magna velit, vehicula a fringilla eget, condimentum ac turpis. Quisque imperdiet scelerisque consectetur. Praesent a efficitur arcu, vitae faucibus neque. Ut finibus, nulla et ultricies semper, magna felis lacinia nisi, ac posuere augue metus ac ligula.',
     user_id: 1
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'http://ucla.edu/consequat/nulla.html',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus orci, euismod a fringilla non, elementum et urna. Aliquam erat volutpat. Proin lobortis fringilla diam, a tristique nulla lobortis et. Morbi a sapien id velit consequat pretium non sit amet tortor. Vestibulum vitae augue vitae augue accumsan rhoncus. Proin interdum nisi lobortis, cursus felis at, rutrum massa. Sed mauris eros, condimentum ut nisi sed, varius efficitur quam.',
     user_id: 1
   },
   {
     title: 'Duis ac nibh.',
-    post_url: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu pharetra tellus, quis rhoncus nulla. Donec fermentum nisl vel porta viverra. Ut dui mi, sodales in metus a, tincidunt accumsan lorem. In a libero eros. Vestibulum sed arcu magna. Aenean metus metus, malesuada consequat lectus sit amet, viverra ultrices velit. Vestibulum euismod vitae nulla vitae euismod. Mauris rhoncus sollicitudin risus in sollicitudin. Nunc tincidunt rhoncus neque, at varius tellus ultricies vel. Maecenas a varius enim, non dignissim lorem. Pellentesque vitae eros mollis, ultrices ante eu, aliquet tellus. Nulla ex mi, cursus ac iaculis eu, porttitor sed dui. Duis ultricies enim et velit porttitor blandit.',
     user_id: 9
   },
   {
     title: 'Curabitur at ipsum ac tellus semper interdum.',
-    post_url: 'https://reverbnation.com/ligula/sit.jpg',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec mollis nisl, viverra lacinia dolor. In eu fermentum ante. Suspendisse potenti. Aliquam id lorem porta, pretium massa a, molestie nisl. Mauris tempus purus placerat, semper quam eu, porta sapien. Ut nec felis diam. Sed lorem massa, semper eu consectetur a, tincidunt id lorem. Integer eu libero dui. Maecenas congue mi eget lectus laoreet porta. Mauris ac molestie enim, ut rutrum magna. Sed euismod lobortis est ac scelerisque. Donec mattis tortor mi, congue egestas risus efficitur placerat.',
     user_id: 5
   },
   {
     title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://china.com.cn/lectus/vestibulum.json',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec mollis nisl, viverra lacinia dolor. In eu fermentum ante. Suspendisse potenti. Aliquam id lorem porta, pretium massa a, molestie nisl. Mauris tempus purus placerat, semper quam eu, porta sapien. Ut nec felis diam. Sed lorem massa, semper eu consectetur a, tincidunt id lorem. Integer eu libero dui. Maecenas congue mi eget lectus laoreet porta. Mauris ac molestie enim, ut rutrum magna. Sed euismod lobortis est ac scelerisque. Donec mattis tortor mi, congue egestas risus efficitur placerat.',
     user_id: 3
   },
   {
     title: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    post_url: 'http://networksolutions.com/nam/ultrices/libero/non/mattis/pulvinar.json',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec mollis nisl, viverra lacinia dolor. In eu fermentum ante. Suspendisse potenti. Aliquam id lorem porta, pretium massa a, molestie nisl. Mauris tempus purus placerat, semper quam eu, porta sapien. Ut nec felis diam. Sed lorem massa, semper eu consectetur a, tincidunt id lorem. Integer eu libero dui. Maecenas congue mi eget lectus laoreet porta. Mauris ac molestie enim, ut rutrum magna. Sed euismod lobortis est ac scelerisque. Donec mattis tortor mi, congue egestas risus efficitur placerat.',
     user_id: 10
   },
   {
     title: 'Donec dapibus.',
-    post_url: 'https://instagram.com/ac/neque/duis/bibendum/morbi/non.xml',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec mollis nisl, viverra lacinia dolor. In eu fermentum ante. Suspendisse potenti. Aliquam id lorem porta, pretium massa a, molestie nisl. Mauris tempus purus placerat, semper quam eu, porta sapien. Ut nec felis diam. Sed lorem massa, semper eu consectetur a, tincidunt id lorem. Integer eu libero dui. Maecenas congue mi eget lectus laoreet porta. Mauris ac molestie enim, ut rutrum magna. Sed euismod lobortis est ac scelerisque. Donec mattis tortor mi, congue egestas risus efficitur placerat.',
     user_id: 8
   },
   {
     title: 'Nulla tellus.',
-    post_url: 'https://lycos.com/natoque/penatibus/et.html',
+    post_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec mollis nisl, viverra lacinia dolor. In eu fermentum ante. Suspendisse potenti. Aliquam id lorem porta, pretium massa a, molestie nisl. Mauris tempus purus placerat, semper quam eu, porta sapien. Ut nec felis diam. Sed lorem massa, semper eu consectetur a, tincidunt id lorem. Integer eu libero dui. Maecenas congue mi eget lectus laoreet porta. Mauris ac molestie enim, ut rutrum magna. Sed euismod lobortis est ac scelerisque. Donec mattis tortor mi, congue egestas risus efficitur placerat.',
     user_id: 3
   },
-  {
-    title: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    post_url: 'https://gmpg.org/lorem.jpg',
-    user_id: 3
-  },
-  {
-    title:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    post_url: 'https://paginegialle.it/mattis/egestas.jsp',
-    user_id: 7
-  },
-  {
-    title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://wikia.com/turpis/eget.jpg',
-    user_id: 6
-  },
-  {
-    title: 'Etiam justo.',
-    post_url: 'https://shareasale.com/quis.json',
-    user_id: 4
-  },
-  {
-    title: 'Nulla ut erat id mauris vulputate elementum.',
-    post_url: 'http://java.com/diam/neque/vestibulum/eget/vulputate/ut/ultrices.png',
-    user_id: 6
-  },
-  {
-    title: 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    post_url: 'https://java.com/at/nibh/in.png',
-    user_id: 7
-  }
 ];
 
 const seedPosts = () => Post.bulkCreate(postdata);
