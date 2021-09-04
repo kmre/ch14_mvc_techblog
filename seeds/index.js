@@ -1,24 +1,20 @@
 const seedUsers = require('./user-seeds');
 const seedPosts = require('./post-seeds');
 const seedComments = require('./comment-seeds');
-const seedVotes = require('./vote-seeds');
 
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
-  console.log('--------------');
+  console.log('***Seed Users***');
   await seedUsers();
-  console.log('--------------');
+  console.log('***/Seed Users - Seed Posts***');
 
   await seedPosts();
-  console.log('--------------');
+  console.log('***/Seed Posts - Seed Comments***');
 
   await seedComments();
-  console.log('--------------');
-
-  await seedVotes();
-  console.log('--------------');
+  console.log('***/Seed Comments***');
 
   process.exit(0);
 };
