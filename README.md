@@ -25,7 +25,7 @@ To modify/run the application you will need to install npm, express, dotenv, han
 ---
 
 ## Usage
-[Deployed Link] (https://kmre.github.io/ch14_mvc_techblog/)
+[Deployed Link](https://kmre.github.io/ch14_mvc_techblog/)
 
 ---
 
